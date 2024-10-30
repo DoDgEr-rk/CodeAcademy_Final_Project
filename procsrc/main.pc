@@ -28,8 +28,7 @@ int main()
 	
 	initVector(fpMsg, fpLog, &fileVector);
 	
-	char connectionSql[] = "TEAM3/dbpass@83.228.124.173:6223/TEAM3";
-	//char connectionSql[] = "rosen_karadjov/dbpass@83.228.124.173:6223/rosen_karadjov";
+	char connectionSql[] = "TEAM3/------@---.---.124.173:6223/TEAM3";
 	int connectResult = 0;
 	connectResult = sql_Connect(fpMsg, fpLog, connectionSql);
 	if (connectResult == 1)
